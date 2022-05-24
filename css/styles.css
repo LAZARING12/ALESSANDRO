@@ -53,5 +53,64 @@ header, .navbar {
 }
 
 /* Home */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border: none;
+    height: 350px;
+    width: 320px;
+    font-family: 'Trispace', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: center;
+    margin: 20px;
+    
+}
+.card-text {
+    font-size: 20px;
+    margin-top: 16px;
+}
 
 
+.btn-primary {
+    align-items: center;
+    border-radius: 20px;
+    background-color: #2D3D6B;
+    font-family: 'Trispace', sans-serif;
+    border: none;
+
+}
+
+.btn-primary:hover {
+    background-color: #2D3D6B;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.offcanvas-body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.main-title {
+    color: #2D3D6B;
+    margin-top: 64px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
