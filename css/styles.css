@@ -115,31 +115,11 @@ header, .navbar {
     left: 42.5%;
 }
 
-#contact-area {
-    text-align: center;
+footer {
+    font-family: Trispace, sans-serif;
+    background-color: #1D294B;
 }
 
-.contact-box {
-    font-size: 45px;
-    padding-top: 100px;
-}
-
-.contact-box i:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-
-.fa-whatsapp {
-    color: green;
-}
-
-.fa-instagram {
-    color: transparent;
-     background: linear-gradient(to bottom, #3198E2, #6d59c0, #b93590, #e33f5f, #fdd579);   
-     -webkit-background-clip: text;
-}
-
-.contact-text {
-    text-align: center;
-    padding-top: 20px;
+footer h5 {
+    color: #FD9924;
 }
