@@ -55,8 +55,8 @@ header, .navbar {
 /* Home */
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -113,4 +113,33 @@ header, .navbar {
     position: absolute;
     top: 60px;
     left: 42.5%;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.contact-box i:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-instagram {
+    color: transparent;
+     background: linear-gradient(to bottom, #3198E2, #6d59c0, #b93590, #e33f5f, #fdd579);   
+     -webkit-background-clip: text;
+}
+
+.contact-text {
+    text-align: center;
+    padding-top: 20px;
 }
