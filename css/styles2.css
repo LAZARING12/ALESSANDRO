@@ -1,0 +1,86 @@
+/* Gerais */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+    margin: 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: white;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbar-links a {
+    font-family: 'Trispace', sans-serif;
+    color: #1D294B;
+}
+
+#navbar-links a:hover{
+    color: #FD9924;
+    transition: 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px 70px
+}
+
+.btn-contact {
+    background-color: #FD9924;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+.btn-contact:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* Home */
+
+.container-fluid {
+    padding: 0;
+}
+
+.main-title {
+    color: #2D3D6B;
+    margin-top: 80px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+    
+}
+
+.main-title span {
+    font-size: 70px;
+}
+
+hr {
+    height: 7px;
+    color:#2D3D6B;
+    background-color:#2D3D6B;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
