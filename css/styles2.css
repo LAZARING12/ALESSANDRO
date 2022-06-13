@@ -59,6 +59,7 @@ header, .navbar {
     padding: 0;
 }
 
+
 .main-title {
     color: #2D3D6B;
     margin-top: 80px;
@@ -82,5 +83,41 @@ hr {
     margin-right: auto;
     opacity: 1;
     margin-bottom: 60px;
+}
+
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+    height: 90vh;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    top: 15%;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 400px;
+}
+
+.main-btn {
+    background-color: #2D3D6B;
+    color: white;
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+}
+
+.main-btn:hover {
+    background-color: #1D294B;  
+    transform: scale(1.2);
+    text-decoration: none;
+    color: white;
+    transition: .5s;
 }
 
