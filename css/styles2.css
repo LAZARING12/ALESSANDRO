@@ -1,6 +1,6 @@
 /* Gerais */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .row {
     margin: 0;
@@ -27,8 +27,8 @@ header, .navbar {
 }
 
 #navbar-links a {
-    font-family: 'Trispace', sans-serif;
     color: #1D294B;
+    transition: 0.5s;
 }
 
 #navbar-links a:hover{
@@ -46,6 +46,7 @@ header, .navbar {
     border: none;
     border-radius: 20px;
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .btn-contact:hover {
@@ -59,65 +60,144 @@ header, .navbar {
     padding: 0;
 }
 
+.home-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-text  {
+    margin-left: 100px;
+}
+
+.home-text h1 {
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 600;
+    color: #E8716B;
+}
+
+.home-text p {
+    font-size: 30px;
+    color: #2D3D6B;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #2D3D6B;
+    margin-left: 145px;
+    border: 2px solid #2D3D6B;
+    padding: 5px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #2D3D6B;
+    color: white;
+    transition: .5s;
+}
+
+.img-fluid {   
+    width: 600px;
+    height: 800px;
+    margin-right: 50px;
+}
+/* .img-fluid {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+} */
+
+
+/* Produtos */
 
 .main-title {
-    color: #2D3D6B;
+    color: #FD9924;
     margin-top: 80px;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     
 }
 
 .main-title span {
-    font-size: 70px;
+    font-size: 60px;
+}
+
+.linhaMod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-line {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 20px;
 }
 
 hr {
-    height: 7px;
-    color:#2D3D6B;
-    background-color:#2D3D6B;
-    width: 70%;
+    height: 5px;
+    color:#FD9924;
+    background-color:#FD9924;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     opacity: 1;
     margin-bottom: 60px;
+    margin-top: 40px;
 }
 
-#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
-    height: 90vh;
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-#carouselExampleCaptions .carousel-caption {
-    top: 15%;
-}
-
-#carouselExampleCaptions .carousel-caption h5 {
-    font-size: 50px;
-    font-weight: 300;
-    margin-bottom: 400px;
-}
-
-.main-btn {
-    background-color: #2D3D6B;
-    color: white;
-    text-transform: uppercase;
-    width: 300px;
-    height: 100px;
-    padding: 10px 20px;
+.foto-produto {
+    width: 400px;
+    height: 400px;   
+    margin-left: 30px;
+    margin-right: 30px; 
     border-radius: 20px;
-    transition: .5s;
-    text-decoration: none;
-    border: 3px solid transparent;
-    font-weight: bold;
-}
-
-.main-btn:hover {
-    background-color: #1D294B;  
-    transform: scale(1.2);
-    text-decoration: none;
-    color: white;
+    box-shadow: 0px 0px 10px rgb(217, 217, 217);
     transition: .5s;
 }
 
+.foto-produto:hover {
+    opacity: 0.75;
+    transition: .5s;
+}
+
+
+.products-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-produto{
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 20px;
+    color: #2D3D6B;
+}
+
+.card {
+    color: var(--clr-neutral-100);
+    background-image: url(../img/foto.png);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+}
+
+.card-content {
+    padding: 1.5rem;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.3) 20% , hsl(0 0% 0% / 1));
+}
