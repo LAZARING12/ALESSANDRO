@@ -1,0 +1,55 @@
+/* Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+    margin: 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: white;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbar-links a {
+    color: #1D294B;
+    transition: 0.5s;
+}
+
+#navbar-links a:hover{
+    color: #FD9924;
+    transition: 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px 70px
+}
+
+.btn-contact {
+    background-color: #FD9924;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.btn-contact:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
