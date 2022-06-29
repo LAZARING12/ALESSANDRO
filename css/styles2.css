@@ -178,6 +178,18 @@ hr {
     transition: .5s;
 }
 
+.card-information {
+    text-decoration: none;
+}
+
+.card-title {
+    color: #2D3D6B;
+}
+
+.card-text {
+    color: #2D3D6B;
+}
+
 
 .products-description {
     display: flex;

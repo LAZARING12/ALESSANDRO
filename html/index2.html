@@ -50,7 +50,7 @@
                         <a class="nav-item nav-link" id="home-menu" href="#scrollspyHeading1">Home</a>
                         <a class="nav-item nav-link" id="about-menu" href="about.html">Sobre Nós</a>
                         <a class="nav-item nav-link" id="products-menu" href="#scrollspyHeading2">Produtos</a>
-                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Serviços</a>
                         <a class="nav-item nav-link" id="contact-menu" href="#scrollspyHeading3">
                         <button class="btn-contact">Contato</button></a>
                     </div>
@@ -59,7 +59,22 @@
         </div>
     </header>
 
+    <!--Modal do botão serviços-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Serviços ainda estão indisponíveis, logo entraremos com novidades...</p>
+          </div>
+        </div>
+      </div>
+    </div>
     
+
     <!--Home-->
     <div>
       <div data-bs-spy="scroll" data-bs-target="#nav-container" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
@@ -93,37 +108,41 @@
                         <div class="row justify-content-center">
                           <div class="col-md-4">
                             <div class="card shadow">
-                              <div class="inner">
-                                <img src="../img/foto.png" class="card-img-top">
-                              </div>
-                              <div class="card-body text-center">
-                                <h5 class="card-title">Aditivos Biológicos</h5>
-                                <p class="card-text">Produtos para nutrição e melhor desenvolvento de lavrouras.</p>
-                              </div>
+                              <a href="../produtos/produto1.html" class="card-information">
+                                <div class="inner">
+                                  <img src="../img/foto.png" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                  <h5 class="card-title">Aditivos Biológicos</h5>
+                                  <p class="card-text">Produtos para nutrição e melhor desenvolvento de lavrouras.</p>
+                                </div>
+                              </a>
                             </div>
                           </div>
   
                           <div class="col-md-4">
                             <div class="card shadow">
-                              <div class="inner">
-                                <img src="../img/foto1.png" class="card-img-top">
-                              </div>
-                              <div class="card-body text-center">
-                                <h5 class="card-title">Aditivos Fitogênicos</h5>
-                                <p class="card-text">Feitos a base animal, bom uso para alimentação dos animais.</p>
-                              </div>
+                              <a href="../produtos/produto2.html" class="card-information">
+                                <div class="inner">
+                                  <img src="../img/foto1.png" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                  <h5 class="card-title">Aditivos Fitogênicos</h5>
+                                  <p class="card-text">Feitos a base animal, bom uso para alimentação dos animais.</p>
+                                </div>
+                              </a>
                             </div>
                           </div>
   
                           <div class="col-md-4">
                             <div class="card shadow">
-                              <div class="inner">
+                              <a href="../produtos/produto3.html" class="card-information"><div class="inner">
                                 <img src="../img/foto2.png" class="card-img-top">
                               </div>
                               <div class="card-body text-center">
                                 <h5 class="card-title">Cosméticos Naturais</h5>
                                 <p class="card-text">Cosméticos feitos em base Natural, sem adições quimicamentes feitas.</p>
-                              </div>
+                              </div></a>
                             </div>
                           </div>
   
