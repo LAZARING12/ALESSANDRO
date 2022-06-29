@@ -114,6 +114,9 @@ header, .navbar {
 
 
 /* Produtos */
+.card {
+    width: 20rem;
+}
 
 .main-title {
     color: #FD9924;
@@ -215,7 +218,7 @@ main.cards {
     margin-bottom: 50px;
 }
 
-main.cards section.card {
+main.cards section.carde {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,31 +232,31 @@ main.cards section.card {
     transition: all .8s;
 }
 
-main.cards section.card:hover {
+main.cards section.carde:hover {
     color: #FD9924;
     background: #2D3D6B;
     transition: all .8s;
 }
 
-main.cards section.card:first-child {
+main.cards section.carde:first-child {
     margin-left: 0;
 }
 
-main.cards section.card .icon {
+main.cards section.carde .icon {
     font-size: 40px;
 }
 
-main.cards section.card i {
+main.cards section.carde i {
     width: 100%;
 }
 
-main.cards section.card h3 {
+main.cards section.carde h3 {
     font-size: 100%;
     margin: 16px 0;
     font-weight: bold;
 }
 
-main.cards section.card span {
+main.cards section.carde span {
     font-weight: 300;
     max-width: 240px;
     font-size: 80%;
@@ -265,16 +268,16 @@ main.cards section.card span {
         flex-direction: column;
     }
 
-    main.cards section.card {
+    main.cards section.carde {
         margin-left: 0;
         margin-bottom: 32px;
     }
 
-    main.cards section.card:last-child {
+    main.cards section.carde:last-child {
         margin-bottom: 0;
     }
 
-    main.cards section.card button {
+    main.cards section.carde button {
         font-size: 70%;
     }
 
@@ -299,3 +302,120 @@ footer .container {
     margin-left: 5%;
 }
 
+
+/* Responsividade */
+
+@media(max-width: 1208px){
+    /* geral */
+    .regulamentador {
+        margin-left: 2.5%;
+    }   
+}
+
+/* Tablet */
+@media(max-width: 768px){
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-text p {
+        font-size: 25px;
+    }
+
+    .btn {
+        margin-left: auto;
+    }
+
+    .img-fluid {   
+        width: 434px;
+        height: 550px;
+        margin-right: 50px;
+    }
+
+    .card {
+        width: 202px;
+        height: 372px;
+    }
+
+    .regulamentador {
+        margin-left: 2.5%;
+    }
+
+    footer .container {
+        margin-left: 2.5%;
+    }
+}
+
+/* Celular */
+@media(max-width: 425px) {
+    .container {
+        padding: 20px 0;
+    }
+
+    .home-area {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .home-text {
+        margin-left: 5px;
+        
+    }
+
+    .home-text h1 {
+        font-size: 50px;
+        width: 300px;
+    }
+
+    .home-text p {
+        margin-top: 20px;
+        font-size: 22px;
+        
+    }
+
+    .btn {
+        margin-left: 32%;
+        font-size: 22px;
+    }
+
+    .img-fluid {   
+        width: 230px;
+        height: 310px;
+        margin-left: 9%;
+        margin-top: 10px;
+    }
+
+    .main-title {
+        font-size: 20px;
+        
+    }
+
+    .main-title span {
+        font-size: 40px;
+    }
+
+    .linhaMod img {
+        width: 160px;
+        height: 100px;
+    }
+
+    .card {
+        width: 202px;
+        height: 372px;
+        margin-bottom: 20px;
+        margin-left: 17.5%;
+    }
+
+    .regulamentador {
+        margin-left: 2.5%;
+    }
+
+    footer .container {
+        margin-left: 2.5%;
+    }
+}
