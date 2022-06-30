@@ -122,3 +122,48 @@ footer .container {
 .preço {
     font-weight: 500;
 }
+
+/* Celular */
+@media(max-width: 425px) {
+    footer .container {
+        margin-left: 2.5%;
+    }
+
+    .container {
+        padding: 20px 0;
+    }
+
+    .area-menu {
+        flex-direction: column;
+    }
+
+    
+    .imagem {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+    
+    .produto-informação {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .produto-informação h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 15%;
+    }
+
+    .produto-informação p {
+        margin-left: 7%;
+    }
+
+    .produto-informação .preço {
+        margin-left: 150px;
+    }
+
+    .produto-informação a {
+        margin-left: 140px;
+    }
+}
