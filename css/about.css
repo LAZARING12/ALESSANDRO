@@ -53,3 +53,73 @@ header, .navbar {
     transform: scale(1.2);
     transition: 0.5s;
 }
+
+.area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sobre-text {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    margin-right: 50px
+}
+
+.sobre-text p {
+    font-size: 20px;
+}
+
+.sobre-text span {
+    font-size: 30px;
+}
+
+.area2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sobre-text2 {
+    display: flex;
+    align-items: center;
+}
+
+.imagem2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    margin-right: 50px
+}
+
+.sobre-text2 p {
+    font-size: 20px;
+}
+
+.sobre-text2 span {
+    font-size: 30px;
+}
+
+.linhaMod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha {
+    background-color: #DF5971;
+    opacity: 1;
+    height: 3px;
+    width: 70%;
+    color: #DF5971;
+}
