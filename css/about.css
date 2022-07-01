@@ -59,7 +59,7 @@ header, .navbar {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .sobre-text {
@@ -87,7 +87,7 @@ header, .navbar {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .sobre-text2 {
@@ -99,7 +99,7 @@ header, .navbar {
     width: 350px;
     height: 350px;
     border-radius: 200px;
-    margin-right: 50px
+    margin-left: 50px
 }
 
 .sobre-text2 p {
@@ -117,9 +117,49 @@ header, .navbar {
 }
 
 .linha {
-    background-color: #DF5971;
+    background-color: #FD9924;
     opacity: 1;
-    height: 3px;
+    height: 5px;
     width: 70%;
-    color: #DF5971;
+    color: #FD9924;
+}
+
+.linhaMod2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha2 {
+    background-color: #FD9924;
+    opacity: 1;
+    height: 5px;
+    width: 70%;
+    color: #FD9924;
+}
+
+footer {
+    background-color: #1D294B;
+}
+
+footer h5 {
+    color: #FD9924;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+footer .container {
+    padding-bottom: 0;
+    margin-left: 5%;
+}
+
+@media (max-width: 425px){
+    .area .area2 {
+        flex-direction: column;
+    }
+    .sobre-text .sobre-text2 {
+        flex-direction: column;
+    }
 }
