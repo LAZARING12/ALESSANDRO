@@ -431,3 +431,12 @@ footer .container {
         margin-left: 2.5%;
     }
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FD9924;
+    border-radius: 20px;
+}

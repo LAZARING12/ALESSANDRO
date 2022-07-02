@@ -156,10 +156,45 @@ footer .container {
 }
 
 @media (max-width: 425px){
-    .area .area2 {
+    .sobre-text {
         flex-direction: column;
     }
-    .sobre-text .sobre-text2 {
+    .sobre-text2 {
         flex-direction: column;
     }
+    .imagem {
+        margin-left: 7%;
+        width: 200px;
+        height: 200px;
+    }
+    .imagem2{
+        margin-left: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .sobre-text p {
+        margin-top: 20px;
+        margin-left: 5%;
+        font-size: 17px;
+    }
+    .sobre-text2 p {
+        font-size: 17px;
+        margin-bottom: 40px;
+        margin-left: 5%;
+    }
+    .sobre-text span {
+        font-size: 20px;
+    }
+    .sobre-text2 span {
+        font-size: 20px;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FD9924;
+    border-radius: 20px;
 }
